@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public interface Visitor {
 
     void visit(Proximity proximity);
@@ -5,5 +7,5 @@ public interface Visitor {
     void visit(Sensors sensors);
     void visit(Camera camera);
     void visit(Temperature temperature);
-    void visit(Panel panel);
+   // void visit(Panel panel);
 }
